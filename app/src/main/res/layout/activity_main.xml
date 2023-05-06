@@ -25,6 +25,21 @@
         android:checked="true"
         android:text="Windows Phone"/>
 
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:background="#ffffff"
+        android:src="@drawable/img"/>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:background="#ffffff"
+        android:scaleType="fitXY"
+        android:src="@drawable/img"/>
+
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,5 +59,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checked="false"/>
+
+    <RadioGroup
+        android:id="@+id/rGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="남성"/>
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여성"/>
+    </RadioGroup>
 
 </LinearLayout>
